@@ -109,21 +109,16 @@ public class BuilderCoche {
         return this;
     }
 
-}
-
-Implementamos en el main.
-`
-public class Main {
-    public static void main(String[] args) {
-        Coche miCoche = new BuilderCoche()
+    public class Main {
+        public static void main(String[] args) {
+            Coche miCoche = new BuilderCoche()
                 .setMarca("Suzuki")
                 .setColor("Rojo")
                 .setPuertas(3)
                 .setPotencia(100)
                 .build();
-    }
-}
-`  
+        }
+    }  
 
 ## ¿Como es su Diagrama de clases? Realiza en el readme el diagrama.
 
